@@ -1,0 +1,58 @@
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color:yellow;
+}
+
+/* button:hover {
+    display: none;
+} */
+
+/* li:first-child{
+    background-color: pink;
+}
+
+li:last-child {
+    background-color: plum;
+}
+
+li:nth-child(2){
+    background-color: purple;
+} */
+
+ul {
+    list-style: none;
+}
+
+.breadcrumbs {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.breadcrumbs li + li::before {
+    content: '/';
+    padding: 0 7px;
+}
+
+.breadcrumbs li::after {
+    content: '*';
+    padding: 0 7px;
+}
+
+button {
+    padding: 20px 40px;
+    font-size: 28px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(179, 47, 47);
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(28, 233, 21);
+}
+button:hover {
+    background-color: rgb(61, 23, 197);
+}
